@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    color: #2c3e50;
+}
+
+.container {
+    max-width: 960px;
+    margin: 80px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background: linear-gradient(135deg, #4a90e2, #6772e5);
+    color: white;
+    padding: 20px;
+    border-bottom: none;
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.card-body {
+    padding: 30px 40px;
+}
+
+h5 {
+    color: #7f8c8d;
+    font-size: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #34495e;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #dcdde1;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.form-control:focus {
+    border-color: #4a90e2;
+    outline: none;
+    box-shadow: 0px 2px 12px rgba(74, 144, 226, 0.2);
+}
+
+button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #6772e5;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0px 4px 14px rgba(74, 144, 226, 0.4);
+}
+
+#prediction {
+    font-size: 22px;
+    font-weight: 600;
+    color: #2c3e50;
+    padding-top: 20px;
+}
+
+/* Additional spacing */
+.mt-50 {
+    margin-top: 50px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .card {
+        padding: 20px;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+}
