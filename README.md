@@ -36,7 +36,7 @@ A model performance graph typically includes plots like the accuracy/loss curve,
 
 ![image](https://github.com/user-attachments/assets/a7a72bef-38df-4d82-9352-76b44a7b2888)
 
-The dataset is organised such that each of the two female actor and their emotions are contain within its own folder. And within that, all 200 target words audio file can be found. The format of the audio file is a WAV format
+
 
 # DEMO
 A demo application is created using html and python
