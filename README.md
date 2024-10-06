@@ -9,13 +9,10 @@ Toronto emotional speech set (TESS)
 
 There are a set of 200 target words were spoken in the carrier phrase "Say the word _' by two actresses (aged 26 and 64 years) and recordings were made of the set portraying each of seven emotions (anger, disgust, fear, happiness, pleasant surprise, sadness, and neutral). There are 2800 data points (audio files) in total.
 
-# MODEL PERFORMANCE
+# VISUALISATION
+Visualizing the TESS dataset (Toronto Emotional Speech Set) involves representing the emotions conveyed in speech through bar chart
+![image](https://github.com/user-attachments/assets/0524ca30-9743-4b71-8772-fc93a147ff3b)
 
-A model performance graph typically includes plots like the accuracy/loss curve, which shows how the model's accuracy and error evolve over training epochs for both training and validation sets, helping detect overfitting.
-
-![image](https://github.com/user-attachments/assets/a7a72bef-38df-4d82-9352-76b44a7b2888)
-
-The dataset is organised such that each of the two female actor and their emotions are contain within its own folder. And within that, all 200 target words audio file can be found. The format of the audio file is a WAV format
 
 # FEATURE EXTRACTION
 
@@ -33,9 +30,13 @@ LSTM (Long Short-Term Memory) is a type of recurrent neural network (RNN) design
 
 ![image](https://github.com/user-attachments/assets/590ce756-c717-4199-89fb-7511568471e1)
 
-# VISUALISATION
-Visualizing the TESS dataset (Toronto Emotional Speech Set) involves representing the emotions conveyed in speech through bar chart
-![image](https://github.com/user-attachments/assets/0524ca30-9743-4b71-8772-fc93a147ff3b)
+# MODEL PERFORMANCE
+
+A model performance graph typically includes plots like the accuracy/loss curve, which shows how the model's accuracy and error evolve over training epochs for both training and validation sets, helping detect overfitting.
+
+![image](https://github.com/user-attachments/assets/a7a72bef-38df-4d82-9352-76b44a7b2888)
+
+The dataset is organised such that each of the two female actor and their emotions are contain within its own folder. And within that, all 200 target words audio file can be found. The format of the audio file is a WAV format
 
 # DEMO
 A demo application is created using html and python
